@@ -62,7 +62,7 @@ function generateExample(schema, defs = {}) {
 }
 
 /**
- * Day 3: AI 补说明 - 生成人性化描述
+ * AI 补说明 - 生成人性化描述
  * 模拟AI：更智能规则。实际增值版可集成OpenAI API (e.g., await openai.complete('Humanize: ' + summary))
  */
 function generateHumanDescription(method, route, info) {
@@ -79,7 +79,7 @@ function generateHumanDescription(method, route, info) {
 }
 
 /**
- * Day 4: 调用示例 - curl / JS
+ * 调用示例 - curl / JS
  */
 function generateCurlExample(method, route, bodyExample, params = []) {
   let curl = `curl -X ${method.toUpperCase()} "http://your-api-host${route}`;
@@ -100,7 +100,7 @@ function generateJsExample(method, route, bodyExample, params = []) {
 }
 
 /**
- * Day 5: 自动挑错 - 增强报告
+ * 自动挑错 - 增强报告
  */
 function checkApiIssues(api) {
   const issues = [];
@@ -127,7 +127,7 @@ function checkApiIssues(api) {
 }
 
 /**
- * Day 6: 生成文档 - HTML/MD，支持模板（增值钩子）
+ * 生成文档 - HTML/MD，支持模板（增值钩子）
  */
 async function generateDocs(api, outputDir, template = 'default') {
   const defs = api.components?.schemas || {}; // 支持$ref
@@ -184,7 +184,7 @@ async function generateDocs(api, outputDir, template = 'default') {
 }
 
 /**
- * Day 7: Demo 展示 - 生成可运行服务器（用express模拟API）
+ * Demo 展示 - 生成可运行服务器（用express模拟API）
  */
 function generateDemo(api, outputDir) {
   let demoCode = `const express = require('express');\nconst app = express();\napp.use(express.json());\n`;
