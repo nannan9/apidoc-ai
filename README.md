@@ -39,3 +39,26 @@ curl http://localhost:3000/pets
 ![API 文档 + Demo 测试对比](screenshots/demo-and-doc.png)
 
 *左：生成的 HTML 文档 | 右：真实 curl 测试 Demo 服务器响应*
+
+API Doc AI (English)
+One-click generate professional API documentation from OpenAPI/Swagger files, with AI-enhanced descriptions, realistic examples, validation, and runnable demo server.
+Features
+
+One-click HTML doc generation
+AI-powered human-readable descriptions
+Realistic request/response examples (powered by faker)
+Automatic validation and issue reporting
+curl & JavaScript examples
+Runnable Express demo server
+Beautiful Bootstrap styling
+
+Quick Start
+Same as above...
+Pro Version Coming Soon
+
+Real AI integration
+Custom templates
+Batch processing
+Team collaboration links
+
+Star & Watch for updates! ⭐
