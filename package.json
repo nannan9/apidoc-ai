@@ -1,0 +1,20 @@
+{
+  "name": "apidoc-ai",
+  "version": "1.0.0",
+  "description": "一键将 Swagger/OpenAPI 文件生成美观文档 + AI 补描述 + 自动校验 + 可运行 Demo",
+  "main": "generateDocs.js",
+  "bin": {
+    "apidoc-ai": "./generateDocs.js"
+  },
+  "scripts": {
+    "start": "node generateDocs.js"
+  },
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "ajv": "^8.12.0",
+    "commander": "^11.1.0",
+    "faker": "^6.6.6"
+  },
+  "license": "MIT",
+  "keywords": ["openapi", "swagger", "api-documentation", "ai", "generator"]
+}
